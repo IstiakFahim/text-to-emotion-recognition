@@ -1,0 +1,160 @@
+Job started on g3301.mahti.csc.fi at Sun Oct 26 03:16:45 EEST 2025
+Using LOCAL_SCRATCH: /run/nvme/job_5323979/data
+HF cache dirs: /run/nvme/job_5323979/data/huggingface_cache
+Using device: cuda
+Train size: 12000
+Val size: 4000
+Test size: 4000
+Labels (index -> label):
+0 -> anger
+1 -> fear
+2 -> joy
+3 -> love
+4 -> sadness
+5 -> surprise
+Num labels: 6
+[2025-10-26 03:17:03,220] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-10-26 03:17:07,030] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+Starting training ...
+{'loss': 1.4057, 'grad_norm': 565876.375, 'learning_rate': 1.9736000000000002e-05, 'epoch': 0.27}
+{'loss': 0.9189, 'grad_norm': 894889.0625, 'learning_rate': 1.9469333333333337e-05, 'epoch': 0.53}
+{'loss': 0.5635, 'grad_norm': 789291.625, 'learning_rate': 1.9202666666666668e-05, 'epoch': 0.8}
+{'loss': 0.3382, 'grad_norm': 230420.59375, 'learning_rate': 1.8936e-05, 'epoch': 1.07}
+{'loss': 0.2911, 'grad_norm': 281195.03125, 'learning_rate': 1.8669333333333334e-05, 'epoch': 1.33}
+{'loss': 0.2519, 'grad_norm': 3998385.75, 'learning_rate': 1.840266666666667e-05, 'epoch': 1.6}
+{'loss': 0.2246, 'grad_norm': 523987.5, 'learning_rate': 1.8136000000000004e-05, 'epoch': 1.87}
+{'loss': 0.2106, 'grad_norm': 908415.6875, 'learning_rate': 1.7869333333333335e-05, 'epoch': 2.13}
+{'loss': 0.2392, 'grad_norm': 478883.9375, 'learning_rate': 1.7602666666666667e-05, 'epoch': 2.4}
+{'loss': 0.19, 'grad_norm': 254367.40625, 'learning_rate': 1.7336e-05, 'epoch': 2.67}
+{'loss': 0.1688, 'grad_norm': 180145.984375, 'learning_rate': 1.7069333333333336e-05, 'epoch': 2.93}
+{'loss': 0.162, 'grad_norm': 2029906.25, 'learning_rate': 1.6802666666666668e-05, 'epoch': 3.2}
+{'loss': 0.2111, 'grad_norm': 157681.265625, 'learning_rate': 1.6536000000000002e-05, 'epoch': 3.47}
+{'loss': 0.1732, 'grad_norm': 323248.46875, 'learning_rate': 1.6269333333333334e-05, 'epoch': 3.73}
+{'loss': 0.1751, 'grad_norm': 821615.875, 'learning_rate': 1.600266666666667e-05, 'epoch': 4.0}
+{'loss': 0.2502, 'grad_norm': 10394.685546875, 'learning_rate': 1.5736000000000003e-05, 'epoch': 4.27}
+{'loss': 0.2043, 'grad_norm': 2149492.5, 'learning_rate': 1.5469333333333335e-05, 'epoch': 4.53}
+{'loss': 0.2159, 'grad_norm': 24864.3515625, 'learning_rate': 1.5202666666666668e-05, 'epoch': 4.8}
+{'loss': 0.1684, 'grad_norm': 872456.5625, 'learning_rate': 1.4936000000000002e-05, 'epoch': 5.07}
+{'loss': 0.2303, 'grad_norm': 2287919.0, 'learning_rate': 1.4669333333333335e-05, 'epoch': 5.33}
+{'loss': 0.2621, 'grad_norm': 644545.375, 'learning_rate': 1.4402666666666667e-05, 'epoch': 5.6}
+{'loss': 0.205, 'grad_norm': 16352.7724609375, 'learning_rate': 1.4136000000000002e-05, 'epoch': 5.87}
+{'loss': 0.2287, 'grad_norm': 1690633.5, 'learning_rate': 1.3869333333333335e-05, 'epoch': 6.13}
+{'loss': 0.2455, 'grad_norm': 175.14901733398438, 'learning_rate': 1.3602666666666668e-05, 'epoch': 6.4}
+{'loss': 0.2503, 'grad_norm': 1319.5177001953125, 'learning_rate': 1.3336e-05, 'epoch': 6.67}
+{'loss': 0.2148, 'grad_norm': 1814660.375, 'learning_rate': 1.3069333333333334e-05, 'epoch': 6.93}
+{'loss': 0.1997, 'grad_norm': 0.093039870262146, 'learning_rate': 1.2802666666666667e-05, 'epoch': 7.2}
+{'loss': 0.2383, 'grad_norm': 1221460.875, 'learning_rate': 1.2536000000000002e-05, 'epoch': 7.47}
+{'loss': 0.1414, 'grad_norm': 0.038827382028102875, 'learning_rate': 1.2269333333333335e-05, 'epoch': 7.73}
+{'loss': 0.2182, 'grad_norm': 3847887.5, 'learning_rate': 1.2002666666666668e-05, 'epoch': 8.0}
+{'loss': 0.1429, 'grad_norm': 29870174.0, 'learning_rate': 1.1736e-05, 'epoch': 8.27}
+{'loss': 0.1482, 'grad_norm': 40.63227462768555, 'learning_rate': 1.1469333333333334e-05, 'epoch': 8.53}
+{'loss': 0.1838, 'grad_norm': 0.014989862218499184, 'learning_rate': 1.1202666666666669e-05, 'epoch': 8.8}
+{'loss': 0.1481, 'grad_norm': 12255809.0, 'learning_rate': 1.0936e-05, 'epoch': 9.07}
+{'loss': 0.0806, 'grad_norm': 0.0010928167030215263, 'learning_rate': 1.0669333333333333e-05, 'epoch': 9.33}
+{'loss': 0.111, 'grad_norm': 809296.75, 'learning_rate': 1.0402666666666668e-05, 'epoch': 9.6}
+{'loss': 0.1528, 'grad_norm': 3101.881103515625, 'learning_rate': 1.0136000000000001e-05, 'epoch': 9.87}
+{'loss': 0.0984, 'grad_norm': 24.228473663330078, 'learning_rate': 9.869333333333334e-06, 'epoch': 10.13}
+{'loss': 0.1285, 'grad_norm': 0.004113484174013138, 'learning_rate': 9.602666666666669e-06, 'epoch': 10.4}
+{'loss': 0.0861, 'grad_norm': 4339251.0, 'learning_rate': 9.336e-06, 'epoch': 10.67}
+{'loss': 0.0656, 'grad_norm': 0.0016427107620984316, 'learning_rate': 9.069333333333335e-06, 'epoch': 10.93}
+{'loss': 0.044, 'grad_norm': 0.07818390429019928, 'learning_rate': 8.802666666666668e-06, 'epoch': 11.2}
+{'loss': 0.0286, 'grad_norm': 0.0032326518557965755, 'learning_rate': 8.536000000000001e-06, 'epoch': 11.47}
+{'loss': 0.0702, 'grad_norm': 0.0036728179547935724, 'learning_rate': 8.269333333333334e-06, 'epoch': 11.73}
+{'loss': 0.0527, 'grad_norm': 757663.0625, 'learning_rate': 8.002666666666667e-06, 'epoch': 12.0}
+{'loss': 0.0413, 'grad_norm': 0.00552094541490078, 'learning_rate': 7.736e-06, 'epoch': 12.27}
+{'loss': 0.0453, 'grad_norm': 65.0947494506836, 'learning_rate': 7.469333333333334e-06, 'epoch': 12.53}
+{'loss': 0.0927, 'grad_norm': 0.003492443822324276, 'learning_rate': 7.202666666666668e-06, 'epoch': 12.8}
+{'loss': 0.0327, 'grad_norm': 0.0049966988153755665, 'learning_rate': 6.936e-06, 'epoch': 13.07}
+{'loss': 0.0155, 'grad_norm': 0.00232068938203156, 'learning_rate': 6.669333333333334e-06, 'epoch': 13.33}
+{'loss': 0.0394, 'grad_norm': 0.004697633441537619, 'learning_rate': 6.402666666666667e-06, 'epoch': 13.6}
+{'loss': 0.0656, 'grad_norm': 0.001137279556132853, 'learning_rate': 6.136000000000001e-06, 'epoch': 13.87}
+{'loss': 0.037, 'grad_norm': 0.00876931194216013, 'learning_rate': 5.869333333333333e-06, 'epoch': 14.13}
+{'loss': 0.0304, 'grad_norm': 0.0042236559092998505, 'learning_rate': 5.602666666666667e-06, 'epoch': 14.4}
+{'loss': 0.0266, 'grad_norm': 0.002584091853350401, 'learning_rate': 5.336e-06, 'epoch': 14.67}
+{'loss': 0.0511, 'grad_norm': 521140.25, 'learning_rate': 5.069333333333334e-06, 'epoch': 14.93}
+{'loss': 0.0251, 'grad_norm': 0.0024171960540115833, 'learning_rate': 4.802666666666667e-06, 'epoch': 15.2}
+{'loss': 0.0232, 'grad_norm': 0.002221457427367568, 'learning_rate': 4.536e-06, 'epoch': 15.47}
+{'loss': 0.0383, 'grad_norm': 0.006366632413119078, 'learning_rate': 4.269333333333333e-06, 'epoch': 15.73}
+{'loss': 0.0131, 'grad_norm': 0.0034781242720782757, 'learning_rate': 4.002666666666667e-06, 'epoch': 16.0}
+{'loss': 0.0212, 'grad_norm': 0.0035399540793150663, 'learning_rate': 3.7360000000000003e-06, 'epoch': 16.27}
+{'loss': 0.032, 'grad_norm': 0.08701732754707336, 'learning_rate': 3.4693333333333334e-06, 'epoch': 16.53}
+{'loss': 0.0086, 'grad_norm': 0.012313327752053738, 'learning_rate': 3.202666666666667e-06, 'epoch': 16.8}
+{'loss': 0.0065, 'grad_norm': 0.008676184341311455, 'learning_rate': 2.9360000000000003e-06, 'epoch': 17.07}
+{'loss': 0.0003, 'grad_norm': 0.002047971123829484, 'learning_rate': 2.669333333333334e-06, 'epoch': 17.33}
+{'loss': 0.0036, 'grad_norm': 0.003531781490892172, 'learning_rate': 2.402666666666667e-06, 'epoch': 17.6}
+{'loss': 0.0349, 'grad_norm': 0.0024062632583081722, 'learning_rate': 2.1360000000000004e-06, 'epoch': 17.87}
+{'loss': 0.0128, 'grad_norm': 0.0037326887249946594, 'learning_rate': 1.8693333333333337e-06, 'epoch': 18.13}
+{'loss': 0.0001, 'grad_norm': 0.06547856330871582, 'learning_rate': 1.6026666666666667e-06, 'epoch': 18.4}
+{'loss': 0.0105, 'grad_norm': 0.004633419681340456, 'learning_rate': 1.336e-06, 'epoch': 18.67}
+{'loss': 0.024, 'grad_norm': 0.006708956323564053, 'learning_rate': 1.0693333333333335e-06, 'epoch': 18.93}
+{'loss': 0.0127, 'grad_norm': 0.04289659857749939, 'learning_rate': 8.026666666666668e-07, 'epoch': 19.2}
+{'loss': 0.0107, 'grad_norm': 0.002553596394136548, 'learning_rate': 5.36e-07, 'epoch': 19.47}
+{'loss': 0.018, 'grad_norm': 731843.75, 'learning_rate': 2.6933333333333336e-07, 'epoch': 19.73}
+{'loss': 0.0316, 'grad_norm': 0.004457089584320784, 'learning_rate': 2.666666666666667e-09, 'epoch': 20.0}
+{'train_runtime': 613.2537, 'train_samples_per_second': 391.355, 'train_steps_per_second': 12.23, 'train_loss': 0.1485794863347585, 'epoch': 20.0}
+Training finished.
+Saved label mapping to modern_bert_finetuned/label_mapping.txt
+
+=== Evaluating on train ===
+
+Classification report for train:
+
+              precision    recall  f1-score   support
+
+       anger       1.00      0.99      0.99       985
+        fear       1.00      1.00      1.00      1625
+         joy       1.00      1.00      1.00      4057
+        love       1.00      1.00      1.00      1424
+     sadness       1.00      1.00      1.00      3478
+    surprise       1.00      1.00      1.00       431
+
+    accuracy                           1.00     12000
+   macro avg       1.00      1.00      1.00     12000
+weighted avg       1.00      1.00      1.00     12000
+
+Saved confusion matrix image to modern_bert_finetuned/confusion_matrix_train.png
+train Accuracy: 0.9987 | Weighted Precision: 0.9987 | Weighted Recall: 0.9987 | Weighted F1: 0.9987
+
+=== Evaluating on validation ===
+
+Classification report for validation:
+
+              precision    recall  f1-score   support
+
+       anger       0.87      0.79      0.83       328
+        fear       0.91      0.93      0.92       542
+         joy       0.94      0.96      0.95      1352
+        love       0.87      0.89      0.88       474
+     sadness       0.97      0.96      0.97      1160
+    surprise       0.80      0.72      0.76       144
+
+    accuracy                           0.93      4000
+   macro avg       0.89      0.88      0.88      4000
+weighted avg       0.92      0.93      0.92      4000
+
+Saved confusion matrix image to modern_bert_finetuned/confusion_matrix_validation.png
+validation Accuracy: 0.9255 | Weighted Precision: 0.9248 | Weighted Recall: 0.9255 | Weighted F1: 0.9249
+
+=== Evaluating on test ===
+
+Classification report for test:
+
+              precision    recall  f1-score   support
+
+       anger       0.87      0.80      0.83       328
+        fear       0.90      0.96      0.93       542
+         joy       0.94      0.95      0.95      1352
+        love       0.90      0.90      0.90       475
+     sadness       0.97      0.96      0.96      1159
+    surprise       0.86      0.81      0.83       144
+
+    accuracy                           0.93      4000
+   macro avg       0.91      0.90      0.90      4000
+weighted avg       0.93      0.93      0.93      4000
+
+Saved confusion matrix image to modern_bert_finetuned/confusion_matrix_test.png
+test Accuracy: 0.9305 | Weighted Precision: 0.9303 | Weighted Recall: 0.9305 | Weighted F1: 0.9301
+
+All done. Model + tokenizer + artifacts saved to: modern_bert_finetuned
+Label index -> label mapping in: modern_bert_finetuned/label_mapping.txt
+Job ended at Sun Oct 26 03:28:12 EEST 2025
