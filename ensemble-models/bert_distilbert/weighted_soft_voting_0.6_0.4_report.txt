@@ -1,0 +1,15 @@
+=== Weighted Soft Voting (0.6/0.4) ===
+Accuracy: 0.9373
+
+              precision    recall  f1-score   support
+
+       anger       0.86      0.81      0.83       328
+        fear       0.92      0.95      0.94       542
+         joy       0.95      0.96      0.95      1352
+        love       0.90      0.92      0.91       475
+     sadness       0.98      0.97      0.97      1159
+    surprise       0.83      0.83      0.83       144
+
+    accuracy                           0.94      4000
+   macro avg       0.91      0.90      0.91      4000
+weighted avg       0.94      0.94      0.94      4000

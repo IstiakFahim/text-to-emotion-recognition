@@ -1,0 +1,15 @@
+=== Hard Voting (Majority Vote) ===
+Accuracy: 0.9330
+
+              precision    recall  f1-score   support
+
+       anger       0.82      0.88      0.85       328
+        fear       0.90      0.96      0.93       542
+         joy       0.96      0.95      0.95      1352
+        love       0.89      0.91      0.90       475
+     sadness       0.98      0.95      0.97      1159
+    surprise       0.90      0.74      0.81       144
+
+    accuracy                           0.93      4000
+   macro avg       0.91      0.90      0.90      4000
+weighted avg       0.93      0.93      0.93      4000

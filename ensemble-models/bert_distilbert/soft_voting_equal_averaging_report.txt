@@ -1,0 +1,15 @@
+=== Soft Voting (Equal Averaging) ===
+Accuracy: 0.9393
+
+              precision    recall  f1-score   support
+
+       anger       0.86      0.82      0.84       328
+        fear       0.92      0.95      0.94       542
+         joy       0.95      0.96      0.96      1352
+        love       0.90      0.92      0.91       475
+     sadness       0.98      0.97      0.97      1159
+    surprise       0.85      0.81      0.83       144
+
+    accuracy                           0.94      4000
+   macro avg       0.91      0.90      0.91      4000
+weighted avg       0.94      0.94      0.94      4000

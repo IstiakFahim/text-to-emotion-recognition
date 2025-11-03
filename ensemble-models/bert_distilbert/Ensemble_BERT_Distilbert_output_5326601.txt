@@ -1,0 +1,76 @@
+Job started on g4101.mahti.csc.fi at Sun Oct 26 19:00:39 EET 2025
+Using LOCAL_SCRATCH: /run/nvme/job_5326601/data
+HF cache dirs: /run/nvme/job_5326601/data/huggingface_cache
+
+=== Getting logits from both models ===
+
+=== [Soft Voting (Equal Averaging)] ===
+Accuracy: 0.9393
+              precision    recall  f1-score   support
+
+       anger       0.86      0.82      0.84       328
+        fear       0.92      0.95      0.94       542
+         joy       0.95      0.96      0.96      1352
+        love       0.90      0.92      0.91       475
+     sadness       0.98      0.97      0.97      1159
+    surprise       0.85      0.81      0.83       144
+
+    accuracy                           0.94      4000
+   macro avg       0.91      0.90      0.91      4000
+weighted avg       0.94      0.94      0.94      4000
+
+Saved report to ensemble_reports_bert_distilbert/soft_voting_equal_averaging_report.txt
+
+=== [Weighted Soft Voting (0.6/0.4)] ===
+Accuracy: 0.9373
+              precision    recall  f1-score   support
+
+       anger       0.86      0.81      0.83       328
+        fear       0.92      0.95      0.94       542
+         joy       0.95      0.96      0.95      1352
+        love       0.90      0.92      0.91       475
+     sadness       0.98      0.97      0.97      1159
+    surprise       0.83      0.83      0.83       144
+
+    accuracy                           0.94      4000
+   macro avg       0.91      0.90      0.91      4000
+weighted avg       0.94      0.94      0.94      4000
+
+Saved report to ensemble_reports_bert_distilbert/weighted_soft_voting_0.6_0.4_report.txt
+
+=== [Hard Voting (Majority Vote)] ===
+Accuracy: 0.9400
+              precision    recall  f1-score   support
+
+       anger       0.84      0.89      0.86       328
+        fear       0.91      0.96      0.93       542
+         joy       0.97      0.95      0.96      1352
+        love       0.90      0.92      0.91       475
+     sadness       0.98      0.96      0.97      1159
+    surprise       0.89      0.81      0.84       144
+
+    accuracy                           0.94      4000
+   macro avg       0.91      0.91      0.91      4000
+weighted avg       0.94      0.94      0.94      4000
+
+Saved report to ensemble_reports_bert_distilbert/hard_voting_majority_vote_report.txt
+
+=== [Stacking (Logistic Regression)] ===
+Accuracy: 0.9395
+              precision    recall  f1-score   support
+
+       anger       0.88      0.79      0.83       328
+        fear       0.94      0.94      0.94       542
+         joy       0.95      0.96      0.95      1352
+        love       0.91      0.91      0.91       475
+     sadness       0.97      0.98      0.97      1159
+    surprise       0.86      0.83      0.85       144
+
+    accuracy                           0.94      4000
+   macro avg       0.92      0.90      0.91      4000
+weighted avg       0.94      0.94      0.94      4000
+
+Saved report to ensemble_reports_bert_distilbert/stacking_logistic_regression_report.txt
+
+ Ensemble evaluation completed. Reports saved in: ensemble_reports_bert_distilbert
+Job ended at Sun Oct 26 19:01:04 EET 2025
